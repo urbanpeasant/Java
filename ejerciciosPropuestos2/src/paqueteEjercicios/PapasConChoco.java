@@ -7,12 +7,12 @@ public class PapasConChoco {
 	public static int chocos;
 	
 	public PapasConChoco(){
-		papas = 20;
-		chocos = 10;
+		papas = 1;
+		chocos = 1;
 	}
 	
 	
-	public int getComensales() {
+	public void getComensales() {
 		int num1=papas;
 		int num2=chocos/2;
 		num1*=3;
@@ -25,7 +25,7 @@ public class PapasConChoco {
 				System.out.println("Los clientes a los que puede atender el restaurante son: "+num2);
 			}
 		}
-		return 0;
+		
 	}
 	
 	public void addChocos(int x) {
