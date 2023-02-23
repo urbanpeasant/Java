@@ -43,7 +43,7 @@ public class PapahConChoco {
     
     
     public static void main(String[] args) {
-        PapahConChoco restaurante = new PapahConChoco(100, 50);
+        PapahConChoco restaurante = new PapahConChoco(1, 0.5);
         System.out.println("Con esa cantidad de papas y chocos podemos atender a " + restaurante.getComensales() + " comensales.");
         
         restaurante.addChocos(10);
@@ -52,4 +52,4 @@ public class PapahConChoco {
         restaurante.showPapas();
     }
 
-}
+} 
