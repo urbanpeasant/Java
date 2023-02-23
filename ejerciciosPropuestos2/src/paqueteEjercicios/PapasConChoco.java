@@ -7,7 +7,7 @@ public class PapasConChoco {
 	public static int chocos;
 	
 	public PapasConChoco(){
-		papas = 2;
+		papas = 1;
 		chocos = 1;
 	}
 	
@@ -25,6 +25,7 @@ public class PapasConChoco {
 				System.out.println("Los clientes a los que puede atender el restaurante son: "+num2);
 			}
 		}
+		
 	}
 	
 	public void addChocos(int x) {
