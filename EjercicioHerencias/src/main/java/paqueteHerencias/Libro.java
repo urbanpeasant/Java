@@ -4,7 +4,7 @@ public class Libro extends Publicacion {
     private boolean prestado;
     
     public Libro(int codigo, String titulo, int anioPublicacion) {
-        super();
+        super(codigo, titulo, anioPublicacion);
         prestado = false;
     }
     

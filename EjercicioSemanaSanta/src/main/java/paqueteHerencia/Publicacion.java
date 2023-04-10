@@ -35,8 +35,9 @@ public abstract class Publicacion {
     public void setAnioPublicacion(int anioPublicacion) {
         this.anioPublicacion = anioPublicacion;
     }
+    
 
-    // Métodos abstractos que serán implementados por las subclases
+    // Métodos abstractos para implementar en las subclasess
     public abstract String getTipoPublicacion();
     public abstract String getInfoEspecifica();
 }

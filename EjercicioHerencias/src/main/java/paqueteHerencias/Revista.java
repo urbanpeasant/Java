@@ -5,7 +5,7 @@ public class Revista extends Publicacion {
     private boolean prestado;
     
     public Revista(int codigo, String titulo, int anioPublicacion) {
-        super();
+        super(codigo, titulo, anioPublicacion);
         prestado = false;
     }
     
