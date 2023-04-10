@@ -20,6 +20,13 @@ public class Persona {
 		this.anyoNacimiento = p.anyoNacimiento;
 		this.apodo = p.apodo;
 	}
+	
+	
+	// Constructor solo con nombre y apellidos.
+	public Persona (String nombre, String apellidos) {
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+	}
 
 	public String getNombre() {
 		return nombre;
