@@ -1,0 +1,1 @@
+INSERT INTO lanzamientos (carta, dado1, dado2, moneda) VALUES

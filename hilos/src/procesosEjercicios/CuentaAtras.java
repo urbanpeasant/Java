@@ -26,8 +26,8 @@ public class CuentaAtras {
 	
 	
 	public static void main(String[] args) {
-		CuentaAtras c1 = new CuentaAtras("C1", 10);
-		CuentaAtras c2 = new CuentaAtras("C2", 20);
+		CuentaAtras c1 = new CuentaAtras("C1", 5);
+		CuentaAtras c2 = new CuentaAtras("C2", 5);
 		
 		c1.arranca();
 		c2.arranca();
